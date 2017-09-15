@@ -15,6 +15,7 @@ app.use(bodyParser.json())
  
 
 require('./routes/htmlRoutes.js')
+require('./routes/apiRoutes.js')
 app.listen(PORT, function(){
 	console.log("Fuck yeah! App listening on PORT: " + PORT);
 });
